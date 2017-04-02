@@ -4,13 +4,14 @@ using UnityEngine;
 
 public class Apple : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    
+
+    public static float bottomY = -20f;
+    void Update()
+    {
+        if (transform.position.y < bottomY)
+        {
+            Destroy(this.gameObject);
+        }
+    }
 }
