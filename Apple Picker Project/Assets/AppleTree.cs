@@ -19,7 +19,9 @@ public class AppleTree : MonoBehaviour {
 
     void DropApple()
     {
-        GameObject apple = Instantiate(applePrefab) as GameObject;
+        GameObject apple;
+         
+            apple = Instantiate(applePrefab) as GameObject;
         apple.transform.position = transform.position;
     }
 
