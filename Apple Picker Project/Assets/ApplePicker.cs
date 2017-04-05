@@ -43,7 +43,8 @@ public class ApplePicker : MonoBehaviour {
         if (basketList.Count == 0)
         {
             Application.LoadLevel("Scene0");
-        }
+        }
+
     }
 
     // Update is called once per frame

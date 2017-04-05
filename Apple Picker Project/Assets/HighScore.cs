@@ -24,6 +24,7 @@ public class HighScore : MonoBehaviour
         if (score > PlayerPrefs.GetInt("ApplePickerHighScore"))
         { // 4
             PlayerPrefs.SetInt("ApplePickerHighScore", score);
-        }
+        }
+
     }
 }

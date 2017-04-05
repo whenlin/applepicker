@@ -14,7 +14,7 @@ public class AppleTree : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        //creates the tree and initallizes the transform for use in the update method
+        //creates the tree and initallizes the transform for use in the update method - acts like singleton, creates one object and monitors its behaviour
         appleTree = Instantiate(appleTree);
         InvokeRepeating("DropApple", 2f,secondsBetweenAppleDrops);
 	}
