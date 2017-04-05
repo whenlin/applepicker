@@ -1,0 +1,4 @@
+sceneSetups:
+- path: C:/Users/User/Github/SE2250-Final-Project/Apple Picker Project/Assets/Scenes/Scene11.unity
+  isLoaded: 1
+  isActive: 1

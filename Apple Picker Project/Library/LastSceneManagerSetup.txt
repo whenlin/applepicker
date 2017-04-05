@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Scene0.unity
+- path: C:/Users/User/Github/SE2250-Final-Project/Submission folder/Part2/Assets/Scene0.unity
   isLoaded: 1
   isActive: 1
