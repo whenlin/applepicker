@@ -11,26 +11,27 @@ public class AppleTree : MonoBehaviour {
     public GameObject applePrefab;
     public GameObject appleTree;
 
+
 	// Use this for initialization
 	void Start () {
-        Instantiate(appleTree);
+        //creates the tree and initallizes the transform for use in the update method
+        appleTree = Instantiate(appleTree);
         InvokeRepeating("DropApple", 2f,secondsBetweenAppleDrops);
 	}
 
     void DropApple()
     {
         GameObject apple;
-         
-            apple = Instantiate(applePrefab) as GameObject;
-        apple.transform.position = transform.position;
+        apple = Instantiate(applePrefab) as GameObject;
+        apple.transform.position = appleTree.transform.position;
     }
 
     // Update is called once per frame
     void Update () {
         
-        Vector3 pos = transform.position;
+        Vector3 pos = appleTree.transform.position;
         pos.x += speed * Time.deltaTime;
-        transform.position = pos;
+        appleTree.transform.position = pos;
 
         if (pos.x < -leftAndRightEdge)
         {
