@@ -1,6 +1,6 @@
-# SE2250-Final-Project - Apple Picker
+ Apple Picker
 
-By: Alexander Powell (250844277) and William Henlin (250833084)
+By: Alexander Powell and William Henlin 
 
 This project includes:
 Part1 - This has all project scenes up to scene8
@@ -23,4 +23,3 @@ This contain the parts of the project up to scene 8.
 This contains scene 0 and the final project
 
 ###Screenshots
-These were added for your convience in marking.
